@@ -1,11 +1,14 @@
 import { C } from "../../theme/theme";
 import { profile } from "../../data/profile";
+import ElegantShapes from "../ui/ElegantShapes";
 import heroPortrait from "../../assets/hero-portrait.jpg";
 import profilePhoto from "../../assets/profile.jpg";
 
 export default function Hero() {
   return (
-    <section id="accueil" className="max-w-6xl mx-auto px-6 pt-32 md:pt-40 pb-20 grid md:grid-cols-2 gap-12 items-center">
+    <section id="accueil" className="relative isolate overflow-hidden">
+      <ElegantShapes />
+      <div className="relative z-10 max-w-6xl mx-auto px-6 pt-32 md:pt-40 pb-20 grid md:grid-cols-2 gap-12 items-center">
       <div className="pf-fade order-2 md:order-1">
         <div className="flex items-center gap-4 mb-6">
           <span
@@ -83,6 +86,7 @@ export default function Hero() {
             {profile.availability}
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

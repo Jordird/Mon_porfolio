@@ -15,5 +15,5 @@ export const profile = {
   phone: "034 17 112 34",
   whatsapp: "https://wa.me/261341711234",
   github: "https://github.com/jordiRd",
-  linkedin: "https://linkedin.com/in/votre-profil",
+  linkedin: "https://www.linkedin.com/in/jordi-randriariniaina-03170924b/",
 };
